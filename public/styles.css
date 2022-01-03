@@ -1,0 +1,451 @@
+
+body {
+  margin: 0;
+  height: 100vh;
+  
+}
+.appDiv{
+  height: 100vh;
+}
+.background-container {
+  position: relative;
+  /* padding-left: 10vw;
+  padding-right: 10vw; */
+  top: 0;
+  left: 0;
+  /* height: 20vh; */
+  height: 100vh;
+  background-color: #232325;
+
+}
+
+.background-img {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  object-fit: fill;
+
+}
+
+.carouselStyling{
+  position: absolute;
+  top:-90vh;
+  left:20vw;
+  height: 80vh;
+  width: 60vw;
+  /* background-color: black; */
+}
+/* .carousel {
+  position: absolute;
+  z-index: +2;
+} */
+.bioPane {
+ position:relative;
+ left:10vw;
+  width: 40vw;
+  height: 60vh;
+  background-color: #232325d7;
+  padding-bottom: 80vh;
+  border-radius: 1rem;
+
+}
+
+.personalImg {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top:5vh;
+  border-radius: 50%;
+  width: 10vw;
+ 
+}
+
+
+.bioPane h1 {
+  text-align: center;
+  margin-top: 3vh;
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Spartan', sans-serif;  
+  /* font-style: italic; */
+  font-weight: normal;
+  
+}
+
+
+
+
+.bio p{
+  font-family: 'Spartan', sans-serif;  
+  color: white;
+  width: 30vw ;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.bio .greetingMsg {
+  font-style: italic;
+  font-weight: 500;
+  margin-top:7vh;
+  color: rgb(255, 196, 0);
+
+
+}
+.projectCard{
+  position:relative;
+  top:3vh;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 14vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-bottom: -3vh;
+  color:white;
+  /* opacity: 0.9; */
+}
+/* .projectCard:hover{
+  transform: scale(1.1);
+  opacity:1;
+} */
+
+.projectCard img{
+  margin:auto;
+  margin-top:1vh;
+  height:10vh;
+  width:5vw;
+  text-align: center;
+}
+
+.projectCard p{
+  height: 12vh;
+}
+
+.projectCard .btn{
+  
+  margin-top:1vh;
+}
+.projectsPane{
+  position: relative;
+  z-index: 1;
+}
+
+.portfolioPane {
+  position:relative;
+  left:10vw;
+   width: 40vw;
+   height: 60vh;
+   background-color: #232325a8;
+   padding-bottom: 80vh;
+   border-radius: 1rem;
+   overflow-y: hidden;  /* height:400px; */
+   overflow-x:hidden;
+}
+
+.portfolioPane:hover {
+  overflow-y: scroll;  
+
+}
+.portfolioPane h1{
+  /* position: relative; */
+  text-align: center;
+  color:white;
+  /* top: 7vh;
+  left:3vw; */
+  margin-top: 7vh;
+  /* margin-bottom: 2rem; */
+  font-family: 'Spartan', sans-serif;  
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  border-radius: 1rem;
+  background: #888;
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f1f1f1;
+  border-radius: 1rem;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+.social {
+  position: relative;
+  bottom: 0;
+}
+
+.social i {
+  margin-right: 1rem;
+  position: relative;
+  left:5rem;
+  top:4rem;
+  z-index: +1;
+}
+
+.container{
+  margin-top:5vh;
+  margin-bottom: 5vh;
+}
+
+Card{
+  color:white;
+}
+
+/* .socialButtons{
+  position: relative;
+  left: 50%;
+  top:1rem;
+  transform: translateX(-50%);
+  margin : 0;
+  z-index: 0;
+ 
+  background-color: rgba(255, 255, 0, 0.404);
+} */
+i{
+  position:relative;
+  display:block;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 6rem;
+  margin-bottom: 3vh;
+  font-size: 3.5rem;
+
+}
+i:hover{
+  color: rgb(255, 196, 0);
+}
+.fa-github{
+  color: white;
+  border:black;
+}
+.fa-facebook{
+color:#2d4373;
+border: white;
+}
+
+.fa-linkedin{
+color:#007bb6;
+border: white;
+}
+.contactPane h1{
+  color: white;
+  font-size: 1.5rem;
+  position : relative;
+  top:4rem;
+  z-index: 1;
+  font-weight: bold;
+}
+
+
+@media (max-width:855px){
+  .carouselStyling{
+    position: absolute;
+    top:-90vh;
+    left:15vw;
+    height: 80vh;
+    width: 70vw;
+    /* background-color: black; */
+  }
+  .carousel-indicators{
+    top: 81vh;
+  }
+
+.bioPane {
+  position:relative;
+  left:10vw;
+  width: 50vw;
+  height: 60vh;
+
+  padding-bottom: 80vh;
+  border-radius: 1rem;
+   
+}
+
+.portfolioPane {
+  position:relative;
+  left:10vw;
+   width: 50vw;
+   height: 60vh;
+
+   padding-bottom: 80vh;
+   border-radius: 1rem;
+   overflow-y: hidden;  /* height:400px; */
+   overflow-x:hidden;
+}
+
+.bioPane h1 {
+  font-size: 1rem;
+}
+  
+.bio p{
+  
+  width: 35vw ;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.7rem;
+
+}
+.portfolioPane h1{
+  text-align: center;
+  /* top: 7vh;
+  left:3vw; */
+  margin-bottom: -5vh;
+  font-size: 1rem;
+}
+.projectCard{
+  position:relative;
+  top:3vh;
+  
+  text-align: center;
+  width: 18vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 4vh;
+
+  /* opacity: 0.9; */
+}
+.card-title.h5{
+  font-size: 0.8rem;
+}
+.projectCard p{
+  font-size: 0.7rem;
+  height: 13vh;
+  width: 15vw;
+  position:relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left:0;
+}
+.projectCard .btn{
+  font-size: 0.6rem;
+  margin-top:1vh;
+}
+
+}
+
+@media (max-width:577px){
+  .projectCard{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left:0;
+    width: 22vw;
+  }
+    
+}
+
+@media (max-width:426px){
+  /* .background-img {
+    position: relative;
+    height: 100vh;
+    width: 180vw;
+  
+  } */
+  .bioPane {
+    width: 70vw;
+    left:0;
+   
+ }
+ .bioPane h1{
+   font-size: 1.5rem;
+ }
+
+ .personalImg{
+   width: 19vw;
+ }
+
+ .bio p{
+   width: 60vw;
+   font-size: 0.85rem;
+ }
+
+ carouselStyling{
+  position: absolute;
+  top:-90vh;
+  left:20vw;
+  height: 0;
+  width: 80vw;
+  /* background-color: black; */
+}
+.carousel-indicators{
+  top: 81vh;
+}
+a.carousel-control-prev {
+  left: -10vw;
+}
+a.carousel-control-next {
+  right: -10vw;
+}
+  .portfolioPane {
+     width: 70vw;
+     left:0;
+     overflow-y: hidden;  /* height:400px; */
+     overflow-x:hidden;
+  }
+  .portfolioPane h1{
+    margin-bottom: -8vh;
+  }
+  .portfolioPane:hover {
+     overflow-y: hidden;  /* height:400px; */
+     overflow-x:hidden;
+  }
+  .carousel-indicators [data-bs-target]{
+    margin-top: 2vh;
+  }
+  .projectCard{
+    width: 36vw;
+  }
+ 
+  .card-title.h5{
+    font-size: 1rem;
+  }
+  .projectCard p{
+    font-size: 0.8rem;
+    height: 9vh;
+    width: 34vw;
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left:0;
+  }
+  .projectCard .btn{
+    font-size: 0.6rem;
+    margin-top:1vh;
+  }
+  
+  .projectCard img{
+    margin:auto;
+    margin-top:1vh;
+    height:20vh;
+    width:30vw;
+    text-align: center;
+  }
+
+  .projectCard .btn{
+    font-size: 0.5rem;
+    margin-top:0.5vh;
+  }
+  
+}
