@@ -2,7 +2,7 @@
 import React from "react";
 
 const ContactPane = () => {
-    return <div className="bioPane contactPane">
+    return <div className=" contactPane">
     <h1>
         Contact me
     </h1>
