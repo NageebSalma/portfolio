@@ -50,7 +50,7 @@ body {
  left:10vw;
   width: 40vw;
   height: 60vh;
-  background-color: #232325d7;
+  background-color: #2323258e;
   padding-bottom: 80vh;
   border-radius: 1rem;
 
@@ -143,7 +143,7 @@ body {
   left:10vw;
    width: 40vw;
    height: 60vh;
-   background-color: #232325a8;
+   background-color: #2323258e;
    padding-bottom: 80vh;
    border-radius: 1rem;
    overflow-y: hidden;  /* height:400px; */
@@ -222,7 +222,7 @@ Card{
   left:10vw;
    width: 40vw;
    height: 60vh;
-   background-color:#232325a8;
+   background-color: #2323258e;
    padding-bottom: 80vh;
    border-radius: 1rem;
 }
