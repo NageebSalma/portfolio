@@ -4,6 +4,7 @@ body {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: hidden;
+  font-stretch: 0.5rem;
 
   
 }
@@ -94,7 +95,8 @@ body {
 
 .bio .greetingMsg {
   font-style: italic;
-  font-weight: 500;
+  font-weight: bold;
+  font-stretch: 0.5rem;
   margin-top:7vh;
   color: rgb(255, 196, 0);
 
@@ -435,6 +437,7 @@ a.carousel-control-next {
      overflow-x:hidden;
   }
   .portfolioPane h1{
+    font-size: 1.5rem;
     margin-bottom: -8vh;
   }
 
