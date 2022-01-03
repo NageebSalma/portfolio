@@ -314,7 +314,7 @@ border: white;
 }
 
 .bioPane h1 {
-  font-size: 1rem;
+  font-size: 2rem;
 }
   
 .bio p{
@@ -324,7 +324,7 @@ border: white;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 0.7rem;
+  font-size: 1rem;
 
 }
 .portfolioPane h1{
@@ -373,6 +373,9 @@ border: white;
     margin-left:0;
     width: 22vw;
   }
+ .appDiv .carousel-inner {
+    width: 120%;
+}
     
 }
 
