@@ -11,6 +11,7 @@ const BioPane = () => {
        />
 
       <h1> Salma Nageeb</h1>
+      <h5>"John Mayer fangirl"</h5>
 
       <div className="bio">
         <p className="greetingMsg"> Hi there, thank you for visiting.</p>

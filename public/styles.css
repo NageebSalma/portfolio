@@ -70,6 +70,9 @@ body {
 
 .bioPane h1 {
   text-align: center;
+  text-decoration: line-through;
+  /* text-decoration-color: rgb(255, 196, 0)  ; */
+  text-decoration-thickness: 0.1rem;
   margin-top: 3vh;
   font-size: 1.5rem;
   color: white;
@@ -78,6 +81,19 @@ body {
   font-weight: normal;
   
 }
+.bioPane h5 {
+  text-align: center;
+  margin-top: 0.5vh;
+  font-size:0.7rem;
+  color: white;
+  font-family: 'Spartan', sans-serif;  
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 0;
+ 
+  
+}
+
 
 
 
@@ -97,7 +113,7 @@ body {
   font-style: italic;
   font-weight: bold;
   font-stretch: 0.5rem;
-  margin-top:7vh;
+  margin-top:4vh;
   color: rgb(255, 196, 0);
 
 
@@ -375,6 +391,7 @@ border: white;
   }
  .appDiv .carousel-inner {
     width: 120%;
+    height: 100%;
 }
     
 }
@@ -401,7 +418,7 @@ border: white;
   }
   .bioPane {
     width: 70vw;
-    top:7vh;
+    top:3vh;
     padding-bottom: 70vh;
     left:0;
    
@@ -421,7 +438,7 @@ border: white;
 
  carouselStyling{
   position: absolute;
-  top:-90vh;
+  top:-80vh;
   left:20vw;
   height: 0;
   width: 80vw;
@@ -438,7 +455,7 @@ a.carousel-control-next {
 }
   .portfolioPane {
     width: 70vw;
-    top:7vh;
+    top:3vh;
     padding-bottom: 70vh;
     left:0;     
      overflow-y: scroll;  /* height:400px; */
@@ -489,7 +506,7 @@ a.carousel-control-next {
 
   .contactPane{
     width: 70vw;
-    top:7vh;
+    top:3vh;
     padding-bottom: 70vh;
     left:0;
   }
