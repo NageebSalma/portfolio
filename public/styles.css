@@ -104,7 +104,7 @@ body {
   margin-right: 2vw;
   margin-bottom: -3vh;
   color:white;
-  /* opacity: 0.9; */
+  opacity: 0.9;
 }
 /* .projectCard:hover{
   transform: scale(1.1);
