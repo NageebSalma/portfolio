@@ -114,8 +114,7 @@ body {
   font-weight: bold;
   font-stretch: 0.5rem;
   margin-top:4vh;
-  color: rgb(255, 196, 0);
-
+  color: rgba(255, 196, 0, 0.781);
 
 }
 .projectCard{
