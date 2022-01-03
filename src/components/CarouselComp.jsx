@@ -6,6 +6,8 @@ import BioPane from "./BioPane"
 import PortfolioPane from "./PortfolioPane";
 import ContactPane from "./ContactPane"
 CarouselProps.defaultProps.interval = 20000;
+
+
 const CarouselComp = () => {
   return (
     <Carousel className="carouselStyling">
