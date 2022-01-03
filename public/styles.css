@@ -406,7 +406,7 @@ border: white;
 
  .bio p{
    width: 60vw;
-   font-size: 0.75rem;
+   font-size: 0.83rem;
  }
 
  carouselStyling{
@@ -431,7 +431,7 @@ a.carousel-control-next {
     top:7vh;
     padding-bottom: 70vh;
     left:0;     
-     overflow-y: hidden;  /* height:400px; */
+     overflow-y: scroll;  /* height:400px; */
      overflow-x:hidden;
   }
   .portfolioPane h1{
