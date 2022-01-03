@@ -363,6 +363,9 @@ border: white;
     width: 180vw;
   
   } */
+  i{
+    font-size: 2rem;
+  }
   .bioPane {
     width: 70vw;
     left:0;
@@ -378,7 +381,7 @@ border: white;
 
  .bio p{
    width: 60vw;
-   font-size: 0.85rem;
+   font-size: 0.75rem;
  }
 
  carouselStyling{
