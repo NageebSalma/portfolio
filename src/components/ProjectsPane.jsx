@@ -16,7 +16,7 @@ return <Container className="container">
    <Row >
 
    <Col lg={6} md={6} sm={6} xsm={12}> 
-       <Card className="projectCard" >
+       <Card className="projectCard left" >
          <Card.Img variant="top" src={props.projImg0} />
          <Card.Body>
             <Card.Title>{props.projTitle0}</Card.Title>
@@ -29,7 +29,7 @@ return <Container className="container">
    </Col>
 
    <Col lg={6} md={6} sm={6}> 
-       <Card className="projectCard" >
+       <Card className="projectCard right" >
 
          <Card.Img variant="top" src={props.projImg1} />
          <Card.Body>
