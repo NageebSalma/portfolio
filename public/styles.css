@@ -503,8 +503,8 @@ a.carousel-control-next {
  .bioPane,.contactPane,.portfolioPane{
    overflow-y: scroll;
    width:70vw;
-   position: relative;
-   left:10vw; 
+   
+   left:15vw; 
 
  }
  .appDiv .carousel-inner {
