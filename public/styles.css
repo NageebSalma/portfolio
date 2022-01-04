@@ -505,6 +505,8 @@ a.carousel-control-next {
    width:70vw;
    /* position: relative;
    right:30vw; */
+   right : 15vw;
+
  }
  .appDiv .carousel-inner {
   width: 180%;
