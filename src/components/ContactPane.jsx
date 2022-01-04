@@ -12,17 +12,17 @@ const ContactPane = () => {
     </a>
     <br/>
 
-    <a href="https://github.com/NageebSalma"><i class="fa fa-github"></i>
+    <a href="https://github.com/NageebSalma"><i className="fa fa-github"></i>
         </a>
     <br />
 
     <a href="https://www.linkedin.com/in/salma-nageeb-0b891a217/?originalSubdomain=eg">
-    <i class="fa fa-linkedin"></i>
+    <i className="fa fa-linkedin"></i>
     </a>
     <br />
 
     <a href="https://www.facebook.com/salma.sharawy3/">
-    <i class="fa fa-facebook"></i>
+    <i className="fa fa-facebook"></i>
     </a>
     
     

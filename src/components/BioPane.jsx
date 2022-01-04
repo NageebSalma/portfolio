@@ -11,9 +11,10 @@ const BioPane = () => {
        />
 
       <h1> Salma Nageeb</h1>
-      <h5>"John Mayer fangirl"</h5>
+      <h5>"John Mayer fangirl &#x270C;"</h5>
 
       <div className="bio">
+        {/* <p className="greetingMsg"> Hi there,</p> */}
         <p> I am a full stack developer and a data science enthusiast. I love programming because it's a giving field, and doesn't limit my most important asset: creativity.</p>
       </div>
      

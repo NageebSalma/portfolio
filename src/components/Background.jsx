@@ -6,8 +6,7 @@ const Background = (props) => {
       <img
         className="background-img"
         alt="pigeons flying"
-        src="https://i.picsum.photos/id/914/5683/3794.jpg?hmac=NGACA4qU6jr46eUblU8T692xJif_18ygFwQDMS-Shz4"
-      />
+        src="https://cdn.pixabay.com/photo/2021/11/01/21/31/forest-6761846_1280.jpg"      />
     </div>
   );
 };

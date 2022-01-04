@@ -51,7 +51,7 @@ body {
  left:10vw;
   width: 40vw;
   height: 60vh;
-  background-color: #2323258e;
+  background-color: #232325a6;
   padding-bottom: 80vh;
   border-radius: 1rem;
 
@@ -70,28 +70,31 @@ body {
 
 .bioPane h1 {
   text-align: center;
+  /* text-decoration: line-through;
+  text-decoration-color: white;
+  text-decoration-thickness: 0.1rem; */
   margin-top: 3vh;
   font-size: 1.5rem;
   color: white;
+
   font-family: 'Spartan', sans-serif;  
-  font-weight: normal;
+  /* font-style: italic; */
+  font-weight: bold;
   
 }
 .bioPane h5 {
   text-align: center;
   margin-top: 0.5vh;
   font-size:0.8rem;
-  color: rgba(255, 196, 0, 0.781);
   font-family: 'Spartan', sans-serif;  
   font-style: italic;
   font-weight: normal;
   margin-bottom: 0;
+  color: rgb(253, 199, 19);
+
  
   
 }
-
-
-
 
 
 .bio p{
@@ -102,7 +105,8 @@ body {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 4vh;
+  margin-top: 6vh;
+
 }
 
 .bio .greetingMsg {
@@ -110,8 +114,7 @@ body {
   font-weight: bold;
   font-stretch: 0.5rem;
   margin-top:4vh;
-  color: rgba(255, 196, 0, 0.781);
-
+  color:white;
 }
 .projectCard{
   position:relative;
@@ -156,7 +159,7 @@ body {
   left:10vw;
    width: 40vw;
    height: 60vh;
-   background-color: #2323258e;
+   background-color: #232325a6;
    padding-bottom: 80vh;
    border-radius: 1rem;
    overflow-y: hidden;  /* height:400px; */
@@ -235,7 +238,7 @@ Card{
   left:10vw;
    width: 40vw;
    height: 60vh;
-   background-color: #2323258e;
+   background-color: #232325a6;
    padding-bottom: 80vh;
    border-radius: 1rem;
 }
