@@ -8,7 +8,7 @@ const Background = (props) => {
         className="background-img"
         alt="pigeons flying"
         src="https://cdn.pixabay.com/photo/2021/11/01/21/31/forest-6761846_1280.jpg" 
-        style={{opacity:0.4}}     />
+        style={{opacity:0.5}}     />
     </div>
   );
 };

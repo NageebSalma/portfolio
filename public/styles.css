@@ -289,25 +289,25 @@ border: white;
   }
 
 .bioPane {
-  position:relative;
+  /* position:relative;
   left:10vw;
   width: 50vw;
   height: 60vh;
 
   padding-bottom: 80vh;
   border-radius: 1rem;
- 
+  */
    
 }
 
 .portfolioPane {
-  position:relative;
+  /* position:relative; */
   /* left:10vw; */
    /* width: 50vw; */
-   height: 60vh;
-
+   /* height: 60vh; */
+/* 
    padding-bottom: 80vh;
-   border-radius: 1rem;
+   border-radius: 1rem; */
    overflow-y: scroll; 
    overflow-x:hidden;
 }
@@ -373,11 +373,11 @@ border: white;
     margin-left:0;
     width: 22vw;
   }
- .appDiv .carousel-inner {
+ /* .appDiv .carousel-inner {
     width: 120%;
     height: 100%;
 }
-    
+     */
 }
 
 @media (max-width:426px){
