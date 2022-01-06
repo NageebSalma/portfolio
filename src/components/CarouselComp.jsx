@@ -6,18 +6,19 @@ import BioPane from "./BioPane"
 import PortfolioPane from "./PortfolioPane";
 import ContactPane from "./ContactPane"
 CarouselProps.defaultProps.interval = 20000;
-
+// CarouselProps.defaultProps.controls="false"
+console.log(CarouselProps)
 
 const CarouselComp = () => {
   return (
-    <Carousel className="carouselStyling">
-      <Carousel.Item id="1">
+    <Carousel indicators={false} className="carouselStyling">
+      <Carousel.Item >
         <BioPane />
       </Carousel.Item>
-      <Carousel.Item id="2" > 
+      <Carousel.Item  > 
         <PortfolioPane />
       </Carousel.Item>
-      <Carousel.Item id="2" > 
+      <Carousel.Item > 
       <ContactPane />    
       </Carousel.Item>
     </Carousel>

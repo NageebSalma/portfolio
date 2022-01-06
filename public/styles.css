@@ -19,7 +19,7 @@ body {
   top: 0;
   left: 0;
   height: 100vh;
-  background-color: #232325;
+  background-color: rgba(0, 0, 0, 0.918);
 
 }
 
@@ -38,6 +38,7 @@ body {
   height: 80vh;
   width: 60vw;
 }
+
 
 .bioPane {
  position:relative;
@@ -460,7 +461,9 @@ a.carousel-control-next {
   
 }
  @media (orientation : landscape){
-
+.background-img{
+  height:130vh;
+}
  .bio p{
    width: 55vw;
    font-size:1.1rem;
@@ -479,10 +482,11 @@ i{
 
  @media(orientation:portrait){
    .background-img{
-     position: relative;
+     /* position: relative;
      left: -50vw;
-    transform: rotate(90deg);
-    width:auto;
+    transform: rotate(90deg); */
+    right: 50vw;
+    width:200vw;
     height:100vh;
     
    }
